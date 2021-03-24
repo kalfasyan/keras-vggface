@@ -14,10 +14,10 @@ from keras.layers import Flatten, Dense, Input, GlobalAveragePooling2D, \
     AveragePooling2D, Reshape, Permute, multiply
 from tensorflow.python.keras.applications.imagenet_utils import obtain_input_shape
 from tensorflow.python.keras.utils import layer_utils
-from tensorflow.keras.utils.data_utils import get_file
+from tensorflow.python.keras.utils.data_utils import get_file
 from tensorflow.keras import backend as K
 from keras_vggface import utils
-from tensorflow.keras.engine.topology import get_source_inputs
+from tensorflow.python.keras.utils.layer_utils import get_source_inputs
 import warnings
 from tensorflow.keras.models import Model
 from tensorflow.keras import layers
