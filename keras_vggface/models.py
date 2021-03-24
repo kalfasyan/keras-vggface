@@ -27,7 +27,7 @@ def VGG16(include_top=True, weights='vggface',
           input_tensor=None, input_shape=None,
           pooling=None,
           classes=2622):
-    input_shape = _obtain_input_shape(input_shape,
+    input_shape = obtain_input_shape(input_shape,
                                       default_size=224,
                                       min_size=48,
                                       data_format=K.image_data_format(),
